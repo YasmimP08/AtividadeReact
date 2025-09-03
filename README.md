@@ -1,4 +1,4 @@
-# Lista de Filmes - Aplicação React
+# Consumo de API com ReactJS
 
 Aplicação feita em React consumindo a API do OMDb.
 Usuários podem buscar filmes, ver detalhes e adicionar/remover esses filmes da lista de favoritos.
