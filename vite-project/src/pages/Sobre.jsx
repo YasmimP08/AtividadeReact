@@ -7,7 +7,7 @@ export default function Sobre() {
   const [movie, setMovie] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
-  const API_KEY = "a9f1c25d";
+  const API_KEY = "INSERIR_CHAVE_API";
 
   useEffect(() => {
     async function fetchMovie() {
