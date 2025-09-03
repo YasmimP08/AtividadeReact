@@ -10,7 +10,7 @@ export default function MovieSearch() {
   const [page, setPage] = useState(1);
   const [totalResults, setTotalResults] = useState(0);
 
-  const key = "a9f1c25d";
+  const key = "INSERIR_CHAVE_API";
 
   async function fetchMovies(q, p) {
     if (!q) return;
@@ -38,7 +38,6 @@ export default function MovieSearch() {
     }
   }
 
-  // ao submeter, definimos a query submetida e voltamos pra página 1
   function handleSearch(e) {
     e.preventDefault();
     const q = query.trim();
